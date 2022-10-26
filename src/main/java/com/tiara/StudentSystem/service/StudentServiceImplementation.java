@@ -22,4 +22,12 @@ public class StudentServiceImplementation implements StudentService {
     public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
+    
+    public Student get(Integer id) {
+        return studentRepository.findById(id).get();
+    }
+    
+    public void delete(Integer id) {
+        studentRepository.deleteById(id);
+    }
 }

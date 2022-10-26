@@ -1,7 +1,6 @@
 package com.tiara.StudentSystem.service;
 
 import com.tiara.StudentSystem.model.Student;
-
 import java.util.List;
 
 public interface StudentService {
